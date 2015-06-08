@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset ="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio 2 Project</title>
+	<style type="text/css"></style>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:600,900' rel='stylesheet' type='text/css'>
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		
+	</head>
+	<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<img class="img-responsive title-logo" src="images/udacity-logo.jpg" alt="Udacity Logo">
+			</div>
+			<div class="col-md-6 text-right text-uppercase">
+				<h1 class="title-super">Evan Nordquist</h1>
+				<h3 class="sub-title">Udacity Student</h3>
+			</div>
+		</div>
+		<div class = "row">
+			<hr>
+		</div>	
+		<div style="background-color:#131A2D">
+			<br>
+			<div style = "row">
+			  <img class="img-responsive" src="images/xboxkinect2.png" alt="3d Scan">
+			</div>
+			<div class="col-md-12">
+			  <h2>Featured Work</h2>
+			</div>
+			<div class="row text-center text-uppercase">
+			  <div class="col-md-6">
+				<img class= "img-responsive" src="images/controller_555x300.png"  alt="Retro game controller project"
+				data-toggle="modal" data-target="#project1">
+				<h3>Hardware Hack: Retro Controller</h3>
+				<p class = "text-lowercase"><a href="https://github.com/ekn394/DIY-USB-game-controller">https://github.com/ekn394/DIY-USB-game-controller</a></p>
+			  </div>
+			  <div class="col-md-6">
+				<img class= "img-responsive" src="images/codemakers_555x300.png" alt="Google Codemakers Project"
+				data-toggle="modal" data-target="#project2">
+				<h3>Instructor for Google codemakers Iqaluit, Canada</h3>
+				<p><a href="http://www.cbc.ca/news/canada/north/google-s-codemakers-program-launches-in-iqaluit-1.3009996">Link to article</a></p>
+			  </div>
+			</div>
+			<div class="row text-center text-uppercase">
+			  <div class="col-md-6">
+				<img class="img-responsive" src="images/combat_robotics_555x300.png" alt ="Combat Robotics" 
+				data-toggle="modal" data-target="#project3">
+				<h3>Combat Robotics</h3>
+				<p><a href="https://www.youtube.com/watch?v=TyiMnNSsq6A">RoboGames 2015</a></p>
+			  </div>
+			  <div class="col-md-6">
+				<img class= "img-responsive" src="images/mosasaur2_555x300.png" alt="Fossil Replica"
+				data-toggle="modal" data-target="#project4">
+				<h3>Fossil Replica Sculptor</h3>
+				<p><a href="http://artsandscience.usask.ca/news/n/1652/Fossil_geek_puts_in_250_hours_to_bring_back_extinct_sea_liza">Link to article</a></p>
+			  </div>
+			</div>
+		</div> <!-- end of black box-->
+  </div> <!-- end of the container -->
+  
+  <!-- Modal 1 -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel1">Retro Controller Hardware Hack</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/controller_555x300.png" alt="Retro game controller project">
+        All you need to convert your favorite retro game controller into a plug-and-play USB controller 
+		is some scrap wires, some solder, an afternoon, and an inexpensive micro controller (in this case a Teensy++ 2.0).
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Modal 2 -->
+<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel2">Invited to teach Computer Science in the far north of Canada.</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/codemakers2_555x300.png" alt="Teaching Computer Science with Google Codemakers">
+        This activity taught kids how to make 
+		their own video games using "Scratch".  
+		Our goal was to increase computer literacy in today's youth.  
+		3 Googlers, and 3 tech savvy science teachers 
+		from across Canada were tapped to teach at this event.  
+		(Photos: Tamara Pimentel/CBC)
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 3 -->
+<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel3">Competing at RoboGames 2015</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/combat_robotics_555x300.png" alt="Combat Robotics">
+			In 2015, I travelled to San Fransisco to compete in RoboGames 2015.  
+			My robot was destroyed by the competition (literally) but it was a great learning experience.  I can't wait for next year.  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 4 -->
+<div class="modal fade" id="project4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel4">Constructing a replica Mosasaur</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/mosasaur1_555x300.png" alt="Constructing a replica Mosasaur skeleton">
+			As a paleontology student, I had the unique opportunity (and challenge) of 
+			reconstructing the skeleton of a Mosasaur, a Cretaceous period (~80mya) marine reptile.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
