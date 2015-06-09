@@ -20,7 +20,7 @@ body {
 }
 
 .title-logo {
-	margin-top: 20px ;
+	margin-top: 20px;
 }
 
 .sub-title {
@@ -36,4 +36,8 @@ body {
 
 #backdrop {
 	background-color: #131a2d;
+}
+
+#featured-label {
+	padding-left: 30px;
 }
